@@ -168,11 +168,11 @@
   </domains>
   <entities>
     <entity id="6330c40931c5a076745179bf4bb490881" comment="">
-      <logical name="Hotel" />
+      <logical name="Hotels" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Hotel" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Hotels" />
         </item>
       </physical>
       <attributes>
@@ -282,11 +282,11 @@
       </geometry>
     </entity>
     <entity id="3519bb71f304a1ecada057318bf1631d5" comment="">
-      <logical name="Staff_Member" />
+      <logical name="Staff_Members" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Staff_Member" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Staff_Members" />
         </item>
       </physical>
       <attributes>
@@ -322,38 +322,6 @@
             <fontColor a="255" r="0" g="0" b="128" isEmpty="false" />
           </geometry>
         </attribute>
-        <attribute id="aa52935e8c4205a34723f36761e1e1a71" domain="0b76520b3173a381bd2e97a56fa1e5a1f" isPrimary="false" isForeign="false" notNull="true" comment="">
-          <logical name="Passport" />
-          <physical>
-            <item>
-              <string>Access</string>
-              <GenericPhysicalAttribute xsi:type="PhysicalAccessAttribute" name="Passport" />
-            </item>
-          </physical>
-          <geometry>
-            <position x="3" y="60" />
-            <font name="Tahoma" size="10" bold="false" italic="false" underline="false" />
-            <foreColor a="255" r="0" g="0" b="0" isEmpty="false" />
-            <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
-            <fontColor a="255" r="0" g="0" b="128" isEmpty="false" />
-          </geometry>
-        </attribute>
-        <attribute id="5237bedfedfdffb50318e448fdc61be61" domain="2e30ceeb2618a5959dd62979cca137d1d" isPrimary="false" isForeign="false" notNull="false" comment="">
-          <logical name="International_Passport" />
-          <physical>
-            <item>
-              <string>Access</string>
-              <GenericPhysicalAttribute xsi:type="PhysicalAccessAttribute" name="International_Passport" />
-            </item>
-          </physical>
-          <geometry>
-            <position x="3" y="77" />
-            <font name="Tahoma" size="10" bold="false" italic="false" underline="false" />
-            <foreColor a="255" r="0" g="0" b="0" isEmpty="false" />
-            <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
-            <fontColor a="255" r="0" g="0" b="128" isEmpty="false" />
-          </geometry>
-        </attribute>
         <attribute id="fe0ce4e6422823b4981f88a14ff6306f6" domain="a915714a7f14a11592dc4d918b492cb57" isPrimary="true" isForeign="false" notNull="true" comment="">
           <logical name="Staff_Member_Id" />
           <physical>
@@ -370,22 +338,6 @@
             <fontColor a="255" r="0" g="0" b="128" isEmpty="false" />
           </geometry>
         </attribute>
-        <attribute id="98c93deed202efdb14895b968cc0afa8d" domain="f5e84cff5cf372aa2956fc1f9f38e9f8a" isPrimary="false" isForeign="false" notNull="true" comment="">
-          <logical name="SE" />
-          <physical>
-            <item>
-              <string>Access</string>
-              <GenericPhysicalAttribute xsi:type="PhysicalAccessAttribute" name="SE" />
-            </item>
-          </physical>
-          <geometry>
-            <position x="3" y="94" />
-            <font name="Tahoma" size="10" bold="false" italic="false" underline="false" />
-            <foreColor a="255" r="0" g="0" b="0" isEmpty="false" />
-            <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
-            <fontColor a="255" r="0" g="0" b="128" isEmpty="false" />
-          </geometry>
-        </attribute>
         <attribute id="93453f3a0fd9f181a702d2d169d591ad6" domain="a915714a7f14a11592dc4d918b492cb57" isPrimary="false" isForeign="true" notNull="true" comment="">
           <logical name="Department_Id" />
           <physical>
@@ -395,7 +347,7 @@
             </item>
           </physical>
           <geometry>
-            <position x="3" y="111" />
+            <position x="3" y="60" />
             <font name="Tahoma" size="10" bold="false" italic="false" underline="false" />
             <foreColor a="255" r="0" g="0" b="0" isEmpty="false" />
             <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
@@ -411,7 +363,7 @@
             </item>
           </physical>
           <geometry>
-            <position x="3" y="128" />
+            <position x="3" y="77" />
             <font name="Tahoma" size="10" bold="false" italic="false" underline="false" />
             <foreColor a="255" r="0" g="0" b="0" isEmpty="false" />
             <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
@@ -428,11 +380,11 @@
       </geometry>
     </entity>
     <entity id="518e064923d60fab26db6e86fb5fcd091" comment="">
-      <logical name="Request" />
+      <logical name="Requests" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Request" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Requests" />
         </item>
       </physical>
       <attributes>
@@ -720,11 +672,11 @@
       </geometry>
     </entity>
     <entity id="f0931a219628b8d74b80687e59dd65b58" comment="">
-      <logical name="Agent" />
+      <logical name="Agents" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Agent" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Agents" />
         </item>
       </physical>
       <attributes>
@@ -868,11 +820,11 @@
       </geometry>
     </entity>
     <entity id="0b22c35dbe033c5364ba4235a30d66993" comment="">
-      <logical name="Airport" />
+      <logical name="Airports" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Airport" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Airports" />
         </item>
       </physical>
       <attributes>
@@ -934,11 +886,11 @@
       </geometry>
     </entity>
     <entity id="03a0d821b417e41f86be2722951d84ca8" comment="">
-      <logical name="Department" />
+      <logical name="Departments" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Department" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Departments" />
         </item>
       </physical>
       <attributes>
@@ -1016,11 +968,11 @@
       </geometry>
     </entity>
     <entity id="6200ffc9b1476235621f14c8d84328d9f" comment="">
-      <logical name="Office" />
+      <logical name="Offices" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Office" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Offices" />
         </item>
       </physical>
       <attributes>
@@ -1082,11 +1034,11 @@
       </geometry>
     </entity>
     <entity id="c54e44aac502968065fddfc4998fc49d1" comment="">
-      <logical name="Status" />
+      <logical name="Statuses" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Status" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Statuses" />
         </item>
       </physical>
       <attributes>
@@ -1164,11 +1116,11 @@
       </geometry>
     </entity>
     <entity id="c75e5d06e32cf895a5d787fab3ce40e9f" comment="">
-      <logical name="Template" />
+      <logical name="Templates" />
       <physical>
         <item>
           <string>Access</string>
-          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Template" />
+          <GenericPhysicalEntity xsi:type="PhysicalAccessEntity" name="Templates" />
         </item>
       </physical>
       <attributes>
@@ -1314,12 +1266,13 @@
         <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
+          <nodes x="424" y="72" />
           <nodes x="424" y="96" />
           <nodes x="530" y="96" />
-          <nodes x="592" y="96" />
-          <nodes x="592" y="240" />
-          <nodes x="656" y="240" />
-          <nodes x="760" y="240" />
+          <nodes x="584" y="96" />
+          <nodes x="584" y="232" />
+          <nodes x="656" y="232" />
+          <nodes x="760" y="232" />
         </nodes>
       </geometry>
     </relationship>
@@ -1343,9 +1296,9 @@
           <nodes x="136" y="224" />
           <nodes x="128" y="224" />
           <nodes x="128" y="282" />
-          <nodes x="128" y="424" />
-          <nodes x="152" y="424" />
-          <nodes x="280" y="424" />
+          <nodes x="128" y="416" />
+          <nodes x="152" y="416" />
+          <nodes x="280" y="416" />
         </nodes>
       </geometry>
     </relationship>
@@ -1366,13 +1319,12 @@
         <backColor a="0" r="0" g="0" b="0" isEmpty="true" />
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
-          <nodes x="760" y="240" />
-          <nodes x="760" y="264" />
-          <nodes x="656" y="264" />
-          <nodes x="456" y="264" />
-          <nodes x="456" y="400" />
-          <nodes x="416" y="400" />
-          <nodes x="280" y="400" />
+          <nodes x="760" y="232" />
+          <nodes x="760" y="256" />
+          <nodes x="656" y="256" />
+          <nodes x="448" y="256" />
+          <nodes x="448" y="416" />
+          <nodes x="416" y="416" />
           <nodes x="280" y="416" />
         </nodes>
       </geometry>
@@ -1395,9 +1347,10 @@
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
           <nodes x="1024" y="240" />
-          <nodes x="936" y="240" />
-          <nodes x="874" y="240" />
-          <nodes x="760" y="240" />
+          <nodes x="1024" y="232" />
+          <nodes x="936" y="232" />
+          <nodes x="874" y="232" />
+          <nodes x="760" y="232" />
         </nodes>
       </geometry>
     </relationship>
@@ -1421,9 +1374,10 @@
           <nodes x="128" y="544" />
           <nodes x="48" y="544" />
           <nodes x="24" y="544" />
-          <nodes x="24" y="224" />
-          <nodes x="48" y="224" />
-          <nodes x="144" y="224" />
+          <nodes x="24" y="240" />
+          <nodes x="48" y="240" />
+          <nodes x="136" y="240" />
+          <nodes x="136" y="224" />
         </nodes>
       </geometry>
     </relationship>
@@ -1473,10 +1427,11 @@
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
           <nodes x="776" y="64" />
-          <nodes x="664" y="64" />
-          <nodes x="530" y="64" />
-          <nodes x="424" y="64" />
-          <nodes x="424" y="96" />
+          <nodes x="776" y="56" />
+          <nodes x="664" y="56" />
+          <nodes x="530" y="56" />
+          <nodes x="424" y="56" />
+          <nodes x="424" y="72" />
         </nodes>
       </geometry>
     </relationship>
@@ -1498,10 +1453,10 @@
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
           <nodes x="648" y="424" />
-          <nodes x="648" y="432" />
-          <nodes x="552" y="432" />
-          <nodes x="416" y="432" />
-          <nodes x="280" y="432" />
+          <nodes x="648" y="448" />
+          <nodes x="552" y="448" />
+          <nodes x="416" y="448" />
+          <nodes x="280" y="448" />
           <nodes x="280" y="416" />
         </nodes>
       </geometry>
@@ -1524,12 +1479,12 @@
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
           <nodes x="144" y="64" />
-          <nodes x="144" y="72" />
-          <nodes x="56" y="72" />
-          <nodes x="24" y="72" />
-          <nodes x="24" y="184" />
-          <nodes x="48" y="184" />
-          <nodes x="136" y="184" />
+          <nodes x="144" y="94" />
+          <nodes x="144" y="128" />
+          <nodes x="24" y="128" />
+          <nodes x="24" y="216" />
+          <nodes x="48" y="216" />
+          <nodes x="136" y="216" />
           <nodes x="136" y="224" />
         </nodes>
       </geometry>
@@ -1552,9 +1507,9 @@
         <fontColor a="255" r="0" g="0" b="0" isEmpty="false" />
         <nodes>
           <nodes x="760" y="232" />
-          <nodes x="792" y="232" />
-          <nodes x="792" y="308" />
-          <nodes x="792" y="432" />
+          <nodes x="800" y="232" />
+          <nodes x="800" y="308" />
+          <nodes x="800" y="432" />
           <nodes x="896" y="432" />
           <nodes x="992" y="432" />
         </nodes>
